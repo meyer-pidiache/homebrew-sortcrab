@@ -1,25 +1,25 @@
 class Sortcrab < Formula
   desc "File organizer CLI \u2014 sort your downloads into categorized folders"
   homepage "https://github.com/meyer-pidiache/sortcrab"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/meyer-pidiache/sortcrab/releases/download/v0.1.3/sortcrab-aarch64-apple-darwin.tar.gz"
-      sha256 "a1e1f74cf18b63d5303a1075d12093c12697e208d4718b787d3d85341b30ddc7"
+      url "https://github.com/meyer-pidiache/sortcrab/releases/download/v0.1.4/sortcrab-aarch64-apple-darwin.tar.gz"
+      sha256 "28ec44c8ed58569043fc70297f67c17689af0c5242acc85b3a1bde3bab2ff216"
     else
-      url "https://github.com/meyer-pidiache/sortcrab/releases/download/v0.1.3/sortcrab-x86_64-apple-darwin.tar.gz"
-      sha256 "33fc966bbd6a821ea962545e977f1af2d07f337005bafc4c97a1fd8958025190"
+      url "https://github.com/meyer-pidiache/sortcrab/releases/download/v0.1.4/sortcrab-x86_64-apple-darwin.tar.gz"
+      sha256 "980b3b44a493c85dd7d939e20c0bfe239ac9b487537e3430a5dfe9d54824ed20"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/meyer-pidiache/sortcrab/releases/download/v0.1.3/sortcrab-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "932af5c5719c288c096beb4c925c426bab12e210a88232a41b373dde4ca47a97"
+      url "https://github.com/meyer-pidiache/sortcrab/releases/download/v0.1.4/sortcrab-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "006917383259a07c5408a0721a732952c73222acf4a0fd76dd1bdadc061d6b29"
     else
-      url "https://github.com/meyer-pidiache/sortcrab/releases/download/v0.1.3/sortcrab-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fe61939dfddbd2c91eea0bfc4b8ba9d228eccc3f0a54c1a098bf97f84cc9985f"
+      url "https://github.com/meyer-pidiache/sortcrab/releases/download/v0.1.4/sortcrab-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f211bb71affc3e8ce474c4b3d4773593adaffd36b1bc8fa85dc27dd5e7d93394"
     end
   end
 
